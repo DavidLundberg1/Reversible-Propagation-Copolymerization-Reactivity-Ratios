@@ -1,7 +1,7 @@
 # Accurate Determination of Reactivity Ratios for Copolymerization Reactions with Reversible Propagation Mechanisms
 This repository supports the following manuscript:
 
-David J. Lundberg, Landon J. Kilgallon, Julian C. Cooper, Francesca Starvaggi, Yan Xia, Jeremiah A. Johnson, "Accurate Determination of Reactivity Ratios for Copolymerization Reactions with Reversible Propagation Mechanisms", _ChemRxiv_, 2024. [Link](10.26434/chemrxiv-2024-wpmm3)
+David J. Lundberg, Landon J. Kilgallon, Julian C. Cooper, Francesca Starvaggi, Yan Xia, Jeremiah A. Johnson, "Accurate Determination of Reactivity Ratios for Copolymerization Reactions with Reversible Propagation Mechanisms", _ChemRxiv_, 2024. [Link](https://chemrxiv.org/engage/chemrxiv/article-details/65aafe4a9138d231614f900d)
 
 In this work we compare three distinct methods for the characterization of copolymerization reactions with reversible propagation mechanisms, and assess their general accuracy, usability, and consistency. 
 
