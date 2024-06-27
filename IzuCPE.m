@@ -1,6 +1,6 @@
 function[x,M1_out,M2_out] = IzuCPE(rates,conversion,chain_length)
 %Numerically integrates the Izu copolymer equation
-%Inputs: rates, a vector containing [f1_0, M0, k1, k2, ..., k7, k8] 
+%%Inputs: rates, a vector containing [f1_0, r1, r2, k2, k6, k8] 
 %f1_0 = initial monomer 1 mole fraction
 %M0 = initial monomer concentration (M)
 %k1, k2, k3, k4, k5, k6, k7, k8 are rate constants as defined in Scheme 1
@@ -18,9 +18,9 @@ CPE_params(2,1) = 1-rates(1);
 CPE_params(3,1) = CPE_params(1,1);
 CPE_params(4,1) = CPE_params(2,1);
 
-
+M0 = 1; %Initial monomer concentration [M]
 f1_0 = rates(1);
-M1_0 = f1_0*1;
+M1_0 = f1_0*M0;
 M2_0 = 1-M1_0;
 
 %the bounds of integration in 'tspan' begin assuming 
